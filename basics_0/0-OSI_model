@@ -1,3 +1,12 @@
-The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
-From the lowest to the highest level
+OSI Model:
+
+The OSI model (Open Systems Interconnection) is a conceptual framework used to understand network communication. It divides communication into seven layers:
+
+1. Physical: Transmission of raw data over physical media (electric, light, or radio signals)
+2. Data Link: Responsible for node-to-node data transfer and error detection (MAC addresses)
+3. Network: Responsible for logical addressing and routing (IP, ICMP)
+4. Transport: Responsible for reliable or fast data delivery (TCP, UDP)
+5. Session: Manages sessions between applications
+6. Presentation: Handles data format translation, encryption, and compression
+7. Application: Provides network services to end-users (HTTP, SMTP, SNMP)
 
