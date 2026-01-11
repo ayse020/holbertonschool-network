@@ -2,5 +2,7 @@
 # This script shows all listening TCP and UDP sockets with PID/program name
 
 echo "Active Internet connections (only servers)"
-netstat -tulnp
+netstat -tulnp | grep LISTEN
 
+echo "Active UNIX domain sockets (only servers)"
+netstat -lxp
