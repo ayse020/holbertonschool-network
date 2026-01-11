@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-echo "The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology."
-echo "From the lowest to the highest level: Physical, Data Link, Network, Transport, Session, Presentation, Application."
+The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology.
+From the lowest to the highest level: Physical, Data Link, Network, Transport, Session, Presentation, Application.
