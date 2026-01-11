@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script shows all listening TCP and UDP sockets with PID/program name
+
+echo "Active Internet connections (only servers)"
+netstat -tulnp
+
