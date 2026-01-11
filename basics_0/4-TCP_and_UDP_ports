@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# This script shows all listening TCP and UDP sockets with PID/program name
+# This script displays listening TCP and UDP sockets with PID/program name
 
-echo "Active Internet connections (only servers)"
-netstat -tulnp | grep LISTEN
+# Show TCP and UDP sockets
+netstat -tulnp
 
-echo "Active UNIX domain sockets (only servers)"
+# Show UNIX domain sockets
 netstat -lxp
